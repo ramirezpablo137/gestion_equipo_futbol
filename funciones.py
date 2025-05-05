@@ -1,4 +1,4 @@
-""" 󰳕 Desafío: Gestionar el Equipo de Fútbol Argentino 󰳕
+ """ 󰳕 Desafío: Gestionar el Equipo de Fútbol Argentino 󰳕
 Historia:
 Tu tarea es gestionar el equipo titular el próximo partido. El equipo tiene una matriz de jugadores
 organizada en 11 filas (representando a los titulares del próximo partido) y 5 columnas (Nombre,
