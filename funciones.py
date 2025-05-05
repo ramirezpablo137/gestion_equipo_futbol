@@ -37,10 +37,10 @@ def mostrar_matriz(matriz):
         print("La matriz está vacía. Cargue los datos primero.")
         return
     print("\nMatriz de jugadores:")
-    print("Fila | Nombre | Apellido | Posición | Goles | Edad")
+    print("Fila | Nombre       | Apellido     | Posición    | Goles | Edad")
     print("-" * 60)
     for i, fila in enumerate(matriz):
-        print(f"{i + 1:>4} | " + " | ".join(f"{str(celda):<12}" for celda in fila))
+        print(f"{i + 1:>4} | {fila[0]:<12} | {fila[1]:<12} | {fila[2]:<12} | {fila[3]:<5} | {fila[4]:<4}")
 
 def modificar_matriz(matriz):
     if matriz == [[None] * len(matriz[0]) for _ in range(len(matriz))]:
