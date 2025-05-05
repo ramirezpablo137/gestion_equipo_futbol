@@ -35,7 +35,7 @@ def menu():
     return int(input("Seleccione una opción: "))
 
 def main():
-    # Inicializar la matriz con 11 filas y 5 columnas vacías
+    
     matriz = [[None] * 5 for _ in range(11)]
     
     while True:
